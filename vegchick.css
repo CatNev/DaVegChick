@@ -3,6 +3,7 @@
 body {
     
     margin: 0px;
+    background-color: rgb(234, 248, 241);
 }
 
 header {
@@ -26,6 +27,15 @@ div {
 
 }
 
+section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around ;
+    align-items: baseline;
+    flex-direction: row;
+  
+}
+
 nav {
     padding:14px ;
 	border-top: rgb(11, 48, 14);
@@ -33,7 +43,8 @@ nav {
     border-style: double;
 	border-right: transparent;
 	border-left: transparent;
-	margin:0px;
+	margin:34px;
+ 
     font-family: 'Segoe UI', Verdana, sans-serif;
     display: flex;
     justify-content: center;
@@ -48,7 +59,7 @@ nav a {
     font-weight: bold;
 }
 
-    h1 {
+ h1 {
         
         color: white;
         padding:0px; 
@@ -56,3 +67,20 @@ nav a {
         font-size: 1px;
     }
 
+h2 {
+    font-size: ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+img { 
+    height: 300px ;
+
+}
+
+.whitespace 
+
+{
+background-color: white;
+height: 20px;
+
+}
