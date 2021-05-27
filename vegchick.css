@@ -3,14 +3,13 @@
 body {
     
     margin: 0px;
-    background-color: rgb(234, 248, 241);
     font-family: 'Oleo Script', cursive;
 }
 
 header {
-    background-color: white;
     display: flex;
     justify-content: center;
+
 
     
     
@@ -21,11 +20,11 @@ header img {
     margin-bottom: 0px;
     max-width: 100%;
     max-height:270px;
+    order: 1;
 }
 
 div {
-    background-color: white;
-
+   
 }
 
 article {
@@ -61,7 +60,6 @@ nav a {
 
  h1 {
         
-        color: white;
         padding:0px; 
         margin:0px;
         font-size: 1px;
@@ -70,13 +68,12 @@ nav a {
 h2 {
     font-size: 40px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #5c6b0c;
-    border-color: white;
+    color: #1a3b06;
 }
 
 h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: #5c6b0c;
+    color: #1a3b06;
     font-size: 35px;
  text-align: center;
 }
@@ -96,4 +93,21 @@ height: 20px;
 {
     width: 1493px;
     height: 100px;
+}
+
+footer {
+    background-color: lightgray;
+}
+
+.logo {
+    width: 45px;
+    height: 45px;
+    margin:5px;
+    order:2;
+}
+
+.logoYoutube {
+    width: 7%;
+    height: 7%;
+    order:2;
 }
