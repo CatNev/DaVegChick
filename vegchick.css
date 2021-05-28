@@ -6,23 +6,6 @@ body {
     font-family: 'Oleo Script', cursive;
 }
 
-header {
-    display: flex;
-    justify-content: center;
-
-
-    
-    
-}
-
-header img {
-    margin-top: 0px;
-    margin-bottom: 0px;
-    max-width: 100%;
-    max-height:270px;
-    order: 1;
-}
-
 div {
    
 }
@@ -75,7 +58,7 @@ h3 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: #1a3b06;
     font-size: 35px;
- text-align: center;
+    text-align: center;
 }
 
 img { 
@@ -99,15 +82,41 @@ footer {
     background-color: lightgray;
 }
 
+header {
+    display: flex;
+    justify-content: center;  
+    position: relative;
+    
+}
+
+header img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    max-width: 100%;
+    max-height:270px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    position:absolute;
+    top:15px;
+    right:1px;
+    justify-content: flex-end;
+
+}
+
 .logo {
     width: 45px;
     height: 45px;
     margin:5px;
-    order:2;
 }
 
 .logoYoutube {
-    width: 7%;
-    height: 7%;
-    order:2;
+    width: 27%;
+    height: 27%;
+    order:-1;
 }
+
