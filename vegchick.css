@@ -41,12 +41,14 @@ nav a {
     font-weight: bold;
 }
 
- h1 {
-        
-        padding:0px; 
-        margin:0px;
-        font-size: 1px;
-    }
+h1 {
+font-family: 'Cookie', cursive;
+padding:14px;
+font-size: 50px;
+color: #1a3b06;
+font-weight: bolder;
+}
+
 
 h2 {
     font-size: 40px;
