@@ -1,22 +1,34 @@
 
 
 body {
-    
     margin: 0px;
     font-family: 'Oleo Script', cursive;
 }
 
+section {
+    width:99%
+}
+
 div {
-   
+    text-align:center;
 }
 
 article {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly ;
-    align-items: baseline;
+    justify-content: space-evenly;
+    align-items: center;
     flex-direction: row;
-  }
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 75px;
+    margin-right:20px;
+}
+
+#PrimeiroArticle {
+    margin-top: 15px;
+}  
+
 
 nav {
     padding:14px ;
@@ -26,12 +38,11 @@ nav {
 	border-right: transparent;
 	border-left: transparent;
 	margin:34px;
- 
     font-family: 'Segoe UI', Verdana, sans-serif;
     display: flex;
     justify-content: center;
-    }
-    
+}
+
 nav a {
     color: rgb(11, 48, 14);
     padding-right: 10px;
@@ -41,54 +52,55 @@ nav a {
     font-weight: bold;
 }
 
-h1 {
-font-family: 'Cookie', cursive;
-padding:14px;
-font-size: 50px;
-color: #1a3b06;
-font-weight: bolder;
-}
+nav a:hover {
+    color: rgb(85, 84, 84); }
 
+h1 {
+    font-size: 30px;
+    font-family: 'Paytone One', sans-serif;
+    color: #1a3b06;
+    text-align:center;
+}
 
 h2 {
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Paytone One', sans-serif;
     color: #1a3b06;
+    font-size: 25px;
+    text-align: center;
 }
 
-h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+p {
+    font-family: font-family: 'Raleway', sans-serif;
     color: #1a3b06;
-    font-size: 35px;
+    font-size: 18px;
     text-align: center;
 }
 
 img { 
-    height: 400px ;
-
+    height: 350px ;
+    border-radius: 10px;
+    max-width:100%;
+    margin-right: 90px;
 }
 
-.whitespace 
-{
-height: 20px;
-
+.whitespace {
+    height: 20px;
 }
 
-.space 
-{
+.space {
     width: 1493px;
     height: 100px;
 }
 
 footer {
-    background-color: lightgray;
+    background-color: rgb(20, 78, 5);
+    padding:20px;
 }
 
 header {
     display: flex;
     justify-content: center;  
-    position: relative;
-    
+    position: relative;  
 }
 
 header img {
@@ -98,27 +110,130 @@ header img {
     max-height:270px;
 }
 
-.logos {
+#logos {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     align-items:center;
     position:absolute;
-    top:15px;
-    right:1px;
+    top:5px;
+    right:0px;
     justify-content: flex-end;
-
+    text-align:left;
 }
 
 .logo {
-    width: 45px;
-    height: 45px;
+    width: 29px;
+    height: 29px;
     margin:5px;
+    margin-right:1px;
 }
 
-.logoYoutube {
-    width: 27%;
-    height: 27%;
-    order:-1;
+#logoYoutube {
+    width: 25%;
+    height: 25%;
+    padding-left:1px;
 }
 
+.logo:hover{
+    height: 50px;
+    width:50px;
+}
+
+
+#Smartphone {
+    order:3;
+    border-radius:10px;
+    max-width:100%;
+    margin-left: 80px;
+}
+
+video{
+    width:50%; 
+    border-radius: 10px; 
+    max-width:100%;  
+}
+
+em {
+    color: rgb(209, 36, 79);
+    font-weight:bold;
+}
+
+em:hover {
+    color: rgb(85, 84, 84); }
+
+#ArticleVideo em{
+    color:seashell;
+    padding:15px;
+    background-color:rgb(7, 99, 42);
+    font-family: 'Dosis', sans-serif;
+    border-style: solid;
+    border-color: black;
+    
+}
+
+#ArticleVideo em:hover {
+    background-color: rgb(146, 146, 146);}
+
+
+footer h3 {
+    color:whitesmoke;
+    font-size:30px;
+    text-align:center;
+    font-family: 'Paytone One', sans-serif;
+}
+
+footer a{
+    text-decoration:none;
+    color:white;
+    font-size:15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer a:hover {
+    color: black; 
+}
+
+#Menu:hover { 
+    filter: sepia(0.5); 
+}
+
+#Morada{
+    Margin-top:50px;
+}
+
+#Morada img:hover {
+    height: 450px ;
+}
+
+
+#Telefone img{
+    order:2
+}
+
+#Telefone img:hover {
+    height: 450px ;
+}   
+
+
+#LogosContatos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items:center;
+    position:static;
+    justify-content: center;
+    text-align:left;
+}
+
+#LogosContatos a{
+padding: 30px;
+}
+
+#Vegblogue{
+align-items: center;
+}
+
+#Vegblogue video{
+margin-top:20px;    
+}
