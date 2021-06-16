@@ -1,7 +1,7 @@
 
 
 body {
-    margin: 0px;
+    margin: 1%;
     font-family: 'Oleo Script', cursive;
 }
 
@@ -27,7 +27,25 @@ article {
 
 #PrimeiroArticle {
     margin-top: 15px;
-}  
+    margin-bottom:100px;
+} 
+
+#PrimeiroArticle img {
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
+#PrimeiroArticle img:hover {
+    border:solid;
+    border-color:rgb(226, 142, 15);
+    border-width:1px;
+    border-inline-start-color: darkgreen;
+    border-inline-end-color: darkgreen;
+}
+
+
+#PrimeiroArticle h2:hover {
+    font-size: 35px;
+}
 
 
 nav {
@@ -53,7 +71,8 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(85, 84, 84); }
+    color: rgb(226, 142, 15);
+}
 
 h1 {
     font-size: 30px;
@@ -70,7 +89,7 @@ h2 {
 }
 
 p {
-    font-family: font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway', sans-serif;
     color: #1a3b06;
     font-size: 18px;
     text-align: center;
@@ -146,6 +165,23 @@ header img {
     border-radius:10px;
     max-width:100%;
     margin-left: 80px;
+    filter:drop-shadow(8px 8px 10px gray);
+}
+
+#DivSmartphone {
+    border-bottom:solid;
+    border-top:solid;
+    border-color:rgb(180, 112, 11);
+    padding-top: 50px;
+    padding-bottom:50px;
+}
+
+#Smartphone:hover {
+    border: solid;
+    border-color:rgb(226, 142, 15);
+    border-width:1px;
+    border-inline-start-color: darkgreen;
+    border-inline-end-color: darkgreen;
 }
 
 video{
@@ -154,27 +190,33 @@ video{
     max-width:100%;  
 }
 
+
 em {
-    color: rgb(209, 36, 79);
+    color: rgb(226, 170, 15);
     font-weight:bold;
 }
 
 em:hover {
     color: rgb(85, 84, 84); }
 
+
+#ArticleVideo {
+margin-top:110px;
+}  
+
+
 #ArticleVideo em{
     color:seashell;
     padding:15px;
-    background-color:rgb(7, 99, 42);
+    background-color:rgb(226, 142, 15);
     font-family: 'Dosis', sans-serif;
     border-style: solid;
-    border-color: black;
-    
+    border-color: black;  
 }
 
 #ArticleVideo em:hover {
-    background-color: rgb(146, 146, 146);}
-
+    background-color: rgb(7, 99, 42);
+}
 
 footer h3 {
     color:whitesmoke;
@@ -191,11 +233,11 @@ footer a{
 }
 
 footer a:hover {
-    color: black; 
+    color: rgb(226, 142, 15);
 }
 
 #Menu:hover { 
-    filter: sepia(0.5); 
+    filter:contrast(120%) brightness(120%);
 }
 
 #Morada{
