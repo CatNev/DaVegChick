@@ -166,6 +166,7 @@ header img {
     max-width:100%;
     margin-left: 80px;
     filter:drop-shadow(8px 8px 10px gray);
+    transition:all 0.5s;
 }
 
 #DivSmartphone {
@@ -182,6 +183,7 @@ header img {
     border-width:1px;
     border-inline-start-color: darkgreen;
     border-inline-end-color: darkgreen;
+    transform:scale(1.1)
 }
 
 video{
@@ -193,7 +195,7 @@ video{
 
 em {
     color: rgb(226, 170, 15);
-    font-weight:bold;
+    font-weight:bolder;
 }
 
 em:hover {
